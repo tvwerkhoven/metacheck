@@ -1,0 +1,22 @@
+Metacheck - everything besides spellchecking
+============================================
+
+* About
+
+Metacheck is a Python program that can analyze your prose or poetry, it analyzes the text and looks for sentence length, word occurrence, word distance and more. It parses a text in an automated way such that after reading your manuscript a hundred times, you can still find those nasty errors.
+
+* Features
+
+Metacheck currently checks for:
+
+- word occurrence analysis, i.e. a word histogram (using --cutoff)
+- words close together (see --mindist & --minlen)
+- word groups recurring, i.e. double sentences (see --groupsize, --grpsentence)
+
+* Help
+
+run ./metacheck -h to get info on the command line options
+
+* Author
+
+Tim van Werkhoven, <t.i.m.vanwerkhoven@xs4all.nl>
