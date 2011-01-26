@@ -115,6 +115,7 @@ def find_similar(text, groupsize=5, bysentence=False):
 		_text = text
 	else:
 		groups = []
+		_text = sanitize(text)
 		words = re.compile('\s').split(_text)
 		for i in range(0, len(words), groupsize):
 			groups.append(' '.join(words[i:i+groupsize]))
