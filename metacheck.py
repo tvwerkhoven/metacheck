@@ -6,12 +6,11 @@ metacheck.py
 Check texts for structural integrity.
 """
 
-##  @file liblog.py
-# @author Tim van Werkhoven (tim@astro.su.se)
-# @date 20090330
+##  @file metacheck.py
+# @author Tim van Werkhoven (t.i.m.vanwerkhoven@xs4all.nl)
 # 
-# Created by Tim van Werkhoven on 2009-03-30.
-# Copyright (c) 2008-2009 Tim van Werkhoven (tim@astro.su.se)
+# Created by Tim van Werkhoven.
+# Copyright (c) 2011 Tim van Werkhoven (t.i.m.vanwerkhoven@xs4all.nl)
 # 
 # This file is licensed under the Creative Commons Attribution-Share Alike
 # license versions 3.0 or higher, see
